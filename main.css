@@ -1,0 +1,104 @@
+* {
+     box-sizing: border-box;
+    /* padding: 0; */
+    /* margin:0; */
+    font: san
+}
+p {
+    line-height: 1.5;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:2%;
+}
+h1 { 
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+    background-image: url(./ASSETS/HEADER\ BACKROUNDnavajoland_1920x1200.jpg );
+    border-radius: 40px;
+    /* margin: 5% */
+    padding: 2% 
+}
+nav {
+    border-radius: 50%;
+    background-image: url(./ASSETS/01414_1967fordgalaxie_1920x1200.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+.navbutton3{
+    background-color: #3b6bf0; 
+    border: 3px solid salmon;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    float: right; 
+  
+  }
+
+  section img {
+      height: 150px;
+      width: 150px;
+  }
+main{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+aside {
+    /* margin-right: 75% */
+    background-color: cadetblue;
+    /* width: 25%; */
+    height: 100%;
+}
+
+aside img{
+    height: 250px;
+}
+/* h2 */
+#about {
+    background-color: lightgray;
+    text-align: center;
+}
+article {
+    background-color: chartreuse;
+    margin-left: 25%;
+    margin-right: 25%;
+  
+}
+
+  
+  #projects {
+      background-color: coral;
+      clear: both;
+  }
+.projectsthree {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+  #safe {
+      background-color: darkorchid;
+      /* max-width: 30%; */
+      /* float:right */
+  }
+
+  #gym {
+      background-color: goldenrod;
+      /* max-width: 30%; */
+      /* float: left; */
+  }
+  
+  #ttt {
+      background-color: hotpink;
+       /* max-width:30%; */
+      
+  }
