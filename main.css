@@ -2,14 +2,21 @@
      box-sizing: border-box;
     /* padding: 0; */
     /* margin:0; */
-    font: san
+     font-family:sans-serif ;
 }
+body {
+    background-color: crimson;
+}
+
 p {
     line-height: 1.5;
+    text-align: center;
     font-style: italic;
+    font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding:2%;
+    /* padding-top: 2px; */ */
 }
+
 h1 { 
     text-align: center;
     font-size: 3em;
@@ -19,6 +26,7 @@ h1 {
     /* margin: 5% */
     padding: 2% 
 }
+
 nav {
     border-radius: 50%;
     background-image: url(./ASSETS/01414_1967fordgalaxie_1920x1200.jpg);
@@ -28,9 +36,10 @@ nav {
     display: flex;
     justify-content: flex-end;
 }
+
 .navbutton3{
     background-color: #3b6bf0; 
-    border: 3px solid salmon;
+    border: 5px solid salmon;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -40,19 +49,29 @@ nav {
     cursor: pointer;
     border-radius: 50%;
     float: right; 
-  
-  }
+}
 
-  section img {
+section img {
       height: 150px;
       width: 150px;
-  }
-main{
+}
+
+main {
     margin-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
+
+h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    padding-top: 5px;
+}
+
 aside {
     /* margin-right: 75% */
     background-color: cadetblue;
@@ -60,45 +79,52 @@ aside {
     height: 100%;
 }
 
-aside img{
+aside img {
     height: 250px;
 }
+
 /* h2 */
 #about {
     background-color: lightgray;
     text-align: center;
 }
+
 article {
     background-color: chartreuse;
-    margin-left: 25%;
-    margin-right: 25%;
-  
+    margin-left: 15%;
+    margin-right: 15%; 
 }
 
-  
-  #projects {
-      background-color: coral;
-      clear: both;
-  }
+
+#projects {
+    text-align: center;
+    background-color: coral;
+    /* clear: both; */
+}
+
 .projectsthree {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
 }
-  #safe {
+.PSC{
+    text-align: center ;
+}
+
+#safe {
       background-color: darkorchid;
       /* max-width: 30%; */
       /* float:right */
-  }
+}
 
-  #gym {
+#gym {
       background-color: goldenrod;
       /* max-width: 30%; */
       /* float: left; */
-  }
+}
   
-  #ttt {
+#ttt {
       background-color: hotpink;
        /* max-width:30%; */
       
-  }
+}
