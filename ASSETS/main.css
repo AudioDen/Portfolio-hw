@@ -7,7 +7,7 @@
 
 body {
     background-color: crimson;
-    background-image: url(./ASSETS/jordan-johnson-o9SuqQY02Fo-unsplash.jpg);
+    background-image: url(./jordan-johnson-o9SuqQY02Fo-unsplash.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -29,15 +29,15 @@ h1 {
     font-size: 3em;
     font-family: sans-serif;
     color: whitesmoke;
-    background-image: url(./ASSETS/HEADER\ BACKROUNDnavajoland_1920x1200.jpg );
+    background-image: url(./HEADER\ BACKROUNDnavajoland_1920x1200.jpg );
     border-radius: 40px;
     /* margin: 5% */
     padding: 2% 
 }
 
 nav {
-    border-radius: 50%;
-    background-image: url(./ASSETS/01414_1967fordgalaxie_1920x1200.jpg);
+    border-radius: 40%;
+    background-image: url(./01414_1967fordgalaxie_1920x1200.jpg);
     background-position: center;
     background-size: cover;
     padding: 10%;
@@ -81,19 +81,22 @@ h2 {
 
 aside {
     /* margin-right: 75% */
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     /* width: 25%; */
     height: 100%;
 }
 
 aside img {
-    height: 250px;
+    height: 350px;
+    border-radius: 35px;
+   
 }
 
 /* h2 */
 #about {
     /* background-color: lightgray; */
     text-align: center;
+    margin-bottom: 0; 
 }
 
 article {
@@ -142,7 +145,10 @@ article {
 .emailfig {
     text-align: center;
     font-size: 2em;
-    background: #8eaa97 ;
+    /* background-image: url(./STAR.png); */
+    /* background: #8eaa97 ; */
+    margin-left: 35%;
+    margin-right: 35% ;
 }
 
 @media screen and (max-width: 576px) {
