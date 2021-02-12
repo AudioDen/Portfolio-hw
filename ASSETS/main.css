@@ -25,16 +25,20 @@ p {
 }
 
 h1 { 
-    text-align: center;
+    text-align: left;
     font-size: 3em;
     font-family: sans-serif;
-    color: whitesmoke;
+    color:navajowhite;
     background-image: url(./HEADER\ BACKROUNDnavajoland_1920x1200.jpg );
     border-radius: 40px;
     /* margin: 5% */
     padding: 2% 
 }
-
+.smallh2 {
+    text-align: right;
+    font-size: 24px ;
+    color: gold;
+}
 nav {
     border-radius: 40%;
     background-image: url(./01414_1967fordgalaxie_1920x1200.jpg);
