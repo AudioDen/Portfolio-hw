@@ -1,45 +1,31 @@
 * {
-     box-sizing: border-box;
-     font-family: sans-serif;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body {
     background-color: crimson;
     background-image: url(../ASSETS/img/jordan-johnson-o9SuqQY02Fo-unsplash.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; 
 }
 
 h1 { 
     text-align: left;
     font-size: 50px;
-    /* font-family: sans-serif; */
-    color:navajowhite;
-    /* background-image: url(../ASSETS/img/HEADER\ BACKROUNDnavajoland_1920x1200.jpg);  */
-    border-radius: 40px;
-    /* margin: 5% */
-    padding: 1% 
+    color: navajowhite;
+    padding: 3% 
 }
 
 .smallh2 {
     text-align: right;
     font-size: 30px ;
-    color: gold;
+    color: navajowhite;
     padding-right: 5%;
 }
 
 a {
     cursor: grabbing;
-}
-
-nav {
-    border-radius: 40%;
-    /* background-image: url(../ASSETS/img/01414_1967fordgalaxie_1920x1200.jpg); */
-    background-position: center;
-    background-size: cover;
-    padding: 10%;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .navbutton3 {
@@ -62,68 +48,62 @@ main {
 }
 
 aside {
-    /* display: flex; */
-    /* flex-flow: row; */
-    /* justify-content: space-around; */
     height: 100%;
 }
 
 aside img {
-    height: 350px;
-    border-radius: 35px; 
+    height: 300px;
 }
 
 article {
-    /* background-color: chartreuse; */
-    color:wheat;
     margin-left: 15%;
     margin-right: 15%;
-    opacity: 80%; 
+    opacity: 90%;  
 }
 
 /* h2  in <article>*/
+
 #about {
-    /* background-color: lightgray; */
+    color: rgb(245, 246, 252);
     text-align: center;
-    margin-bottom: 0; 
+    margin-bottom: 0;
+    padding-bottom: 0;  
     font-size: 60px;
-    font-family: sans-serif;
-    padding-top: 5px;
+   
 }
 
-/* h2 {
-    font-size: 60px;
-    font-family: sans-serif;
-    padding-top: 5px;
-} */
-
-p {
+#aboutP {
+    color: whitesmoke;
     line-height: 1.5;
     text-align: center;
     font-style: italic;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-top: 2px; */
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
+/* feature project */
 
-
-
-h4 {
-    color: wheat;
-}
-
-.feature {
+#work { 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 1%;
+    color: wheat; 
+    text-align: center; 
+    font-size: 60px;
+    margin-top: 20px; 
+    margin: bottom 0px;
+}
+
+.feature {
+    color: wheat;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     text-align: center; 
     font-size: 03em; 
     justify-content: center;
-    /* background-color: darkred; */
-    /* background-image: url(../ASSETS/img/matthew-t-rader-PZjF2Hkv6Xo-unsplash.jpg); */
-    background-size: cover;  
 }
 
 .featureimg {
@@ -131,27 +111,12 @@ h4 {
     width: 400px; 
 }
 
+/* figure  3 projects */
+
 section img {
     height: 150px;
     width: 150px;
     padding: 0%;
-}
-
-
-
-
-
-
-
-#projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: wheat;
-    text-align: center; 
-    font-size: 60px ;
-    /* background-color: coral; */
-    /* clear: both; */
 }
 
 .projectsthree {
@@ -159,43 +124,59 @@ section img {
     flex-direction: row;
     justify-content: space-between;
 }
+
 .PSC{
     text-align: center ;
 }
 
 #safe {
-      background-color: darkorchid;
-      /* max-width: 30%; */
-      /* float:right */
+      background-color: whitesmoke;
+      margin: 3%;     
 }
 
 #gym {
-      background-color: goldenrod;
-      /* max-width: 30%; */
-      /* float: left; */
+      background-color: whitesmoke;
+      margin: 3%;     
 }
   
 #ttt {
-      background-color: hotpink;
-       /* max-width:30%; */
-      
-}
-.emailfig {
-    text-align: center;
-    font-size: 2em;
-    background-image: url(./STAR.png); 
-    background: #8eaa97 ; 
-    margin-left: 30%;
-    margin-right: 30% ;
-}
-#phone{
-    font-size: 20px;
+      background-color: whitesmoke;
+      margin: 3%;     
 }
 
+.emailfoot {
+    text-align: center;
+    font-size: 2em;
+    background-image: url(../ASSETS/img/STAR.png); 
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 40%;
+    margin-right: 40% ;
+}
+
+#email {
+    color:turquoise;
+}
+
+#phone {
+    color:yellow;
+    font-size: 25px;
+}
+
+/* media */
 
 @media screen and (max-width: 576px) {
     .projectsthree {
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    nav {
+    display: flex; 
+    flex-flow: row;
+    justify-content: flex-end;
+    flex-wrap: wrap-reverse;
     }
 }
