@@ -1,8 +1,6 @@
 * {
      box-sizing: border-box;
-    /* padding: 0; */
-    /* margin:0; */
-     font-family:sans-serif ;
+     font-family: sans-serif;
 }
 
 body {
@@ -11,38 +9,32 @@ body {
     background-position: center;
     background-size: cover;
 }
-a {
-    cursor: pointer;
-}
-
-p {
-    line-height: 1.5;
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* padding-top: 2px; */
-}
 
 h1 { 
     text-align: left;
-    font-size: 3em;
-    font-family: sans-serif;
+    font-size: 50px;
+    /* font-family: sans-serif; */
     color:navajowhite;
-    /* background-image: url(../ASSETS/img/HEADER\ BACKROUNDnavajoland_1920x1200.jpg); */
+    /* background-image: url(../ASSETS/img/HEADER\ BACKROUNDnavajoland_1920x1200.jpg);  */
     border-radius: 40px;
     /* margin: 5% */
-    padding: 2% 
+    padding: 1% 
 }
+
 .smallh2 {
     text-align: right;
-    font-size: 24px ;
+    font-size: 30px ;
     color: gold;
     padding-right: 5%;
 }
+
+a {
+    cursor: grabbing;
+}
+
 nav {
     border-radius: 40%;
-    background-image: url(../ASSETS/img/01414_1967fordgalaxie_1920x1200.jpg);
+    /* background-image: url(../ASSETS/img/01414_1967fordgalaxie_1920x1200.jpg); */
     background-position: center;
     background-size: cover;
     padding: 10%;
@@ -50,59 +42,35 @@ nav {
     justify-content: flex-end;
 }
 
-.navbutton3{
+.navbutton3 {
     background-color: #3b6bf0; 
     border: 5px solid salmon;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
-    /* display: inline-block; */
     font-size: 20px;
-    cursor: pointer;
+    cursor: grabbing;
     border-radius: 50%;
-    float: right; 
-    
-}
-
-section img {
-      height: 150px;
-      width: 150px;
-      padding: 0%;
+    float: right;   
 }
 
 main {
     margin-top: 100px;
     display: flex;
     align-items: center;
-    flex-direction: column;
-    
-}
-
-h2 {
-    font-size: 60px;
-    font-family: sans-serif;
-    padding-top: 5px;
+    flex-direction: column; 
 }
 
 aside {
-    /* margin-right: 75% */
-    /* background-color: cadetblue; */
-    /* width: 25%; */
+    /* display: flex; */
+    /* flex-flow: row; */
+    /* justify-content: space-around; */
     height: 100%;
 }
 
 aside img {
     height: 350px;
-    border-radius: 35px;
-   
-}
-
-/* h2 */
-#about {
-    /* background-color: lightgray; */
-    text-align: center;
-    margin-bottom: 0; 
+    border-radius: 35px; 
 }
 
 article {
@@ -113,8 +81,72 @@ article {
     opacity: 80%; 
 }
 
+/* h2  in <article>*/
+#about {
+    /* background-color: lightgray; */
+    text-align: center;
+    margin-bottom: 0; 
+    font-size: 60px;
+    font-family: sans-serif;
+    padding-top: 5px;
+}
+
+/* h2 {
+    font-size: 60px;
+    font-family: sans-serif;
+    padding-top: 5px;
+} */
+
+p {
+    line-height: 1.5;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* padding-top: 2px; */
+}
+
+
+
+
+h4 {
+    color: wheat;
+}
+
+.feature {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1%;
+    text-align: center; 
+    font-size: 03em; 
+    justify-content: center;
+    /* background-color: darkred; */
+    /* background-image: url(../ASSETS/img/matthew-t-rader-PZjF2Hkv6Xo-unsplash.jpg); */
+    background-size: cover;  
+}
+
+.featureimg {
+    height: 300px;
+    width: 400px; 
+}
+
+section img {
+    height: 150px;
+    width: 150px;
+    padding: 0%;
+}
+
+
+
+
+
+
 
 #projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     color: wheat;
     text-align: center; 
     font-size: 60px ;
@@ -156,25 +188,10 @@ article {
     margin-left: 30%;
     margin-right: 30% ;
 }
-
-.feature{
-    padding-top: 1%;
-    text-align: center; 
-    font-size: 03em; 
-    justify-content: center;
-    background-color: darkred;
-    background-image: url(../ASSETS/img/matthew-t-rader-PZjF2Hkv6Xo-unsplash.jpg);
-    
+#phone{
+    font-size: 20px;
 }
 
- 
-
-
-.featureimg{
-    height: 300px;
-    width: 400px;
-    justify-content: center;
-}
 
 @media screen and (max-width: 576px) {
     .projectsthree {
