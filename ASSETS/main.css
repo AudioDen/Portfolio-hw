@@ -43,13 +43,17 @@ a {
 main {
     margin-top: 100px;
     display: flex;
-    align-items: center;
-    flex-direction: column; 
+    flex-direction: row; 
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 aside {
     height: 100%;
+   
 }
+
+/* profile photo */
 
 aside img {
     height: 300px;
@@ -99,7 +103,7 @@ article {
 .feature {
     color: wheat;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     text-align: center; 
     font-size: 03em; 
@@ -131,18 +135,20 @@ section img {
 
 #safe {
       background-color: whitesmoke;
-      margin: 3%;     
+      margin: 5%;     
 }
 
 #gym {
       background-color: whitesmoke;
-      margin: 3%;     
+      margin: 5%;     
 }
   
 #ttt {
       background-color: whitesmoke;
-      margin: 3%;     
+      margin: 5%;     
 }
+
+/* footer */
 
 .emailfoot {
     text-align: center;
@@ -169,7 +175,7 @@ section img {
     font-size: 25px;
 }
 
-/* media */
+/* media query */
 
 @media screen and (max-width: 576px) {
     .projectsthree {
