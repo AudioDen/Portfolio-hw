@@ -2,7 +2,7 @@
  This Page is created using the begining skills recently learned, html, css, flexbox and media query's.  As my knowledge and skills grow learning more code techniques and languages this page will do the same. 
 
 
-https://audioden.github.io/Stand-by-to-GO/  .
+
 
 
  PHOTO CREDITS
