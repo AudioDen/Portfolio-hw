@@ -153,6 +153,11 @@ section img {
     background-repeat: no-repeat;
     margin-left: 40%;
     margin-right: 40% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
 }
 
 #email {
@@ -172,11 +177,24 @@ section img {
         justify-content: center;
     }
 }
+
 @media screen and (max-width: 576px) {
     nav {
     display: flex; 
     flex-flow: row;
     justify-content: flex-end;
     flex-wrap: wrap-reverse;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .emailfoot{
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #abtbtn{
+        display: none;
     }
 }
