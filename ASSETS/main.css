@@ -145,7 +145,12 @@ section img {
       background-color: whitesmoke;
       margin: 5%;     
 }
-
+.linked{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
 /* footer */
 
 .emailfoot {
