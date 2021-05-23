@@ -1,20 +1,24 @@
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
 body {
-    background-color: crimson;
-    background-image: url(../ASSETS/img/jordan-johnson-o9SuqQY02Fo-unsplash.jpg);
+     background-color: crimson; 
+    background-image: url(../ASSETS/img/jordan-johnson-o9SuqQY02Fo-unsplash.jpg); 
     background-position: center;
     background-size: cover; 
 }
 
 h1 { 
-    text-align: left;
+    text-align:left;
     font-size: 50px;
     color: navajowhite;
     padding: 3% 
+}
+h5 {
+    font-size:25px;
 }
 
 .smallh2 {
@@ -205,3 +209,13 @@ section img {
         display: none;
     }
 }
+ 
+
+ 
+
+
+
+
+
+
+
